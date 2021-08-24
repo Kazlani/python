@@ -8,6 +8,8 @@ class cat:
       self.breed="persian"
   def meow(self):
       print ("meow! I am a " + self.color + ", " + self.breed + " cat.")
+  def growBigger(self,howMuch):
+      self.size += howMuch
 
 molly = cat()
 jesse = cat()
@@ -18,6 +20,12 @@ print(molly.breed)
 
 molly.meow()
 jesse.meow()
+
+molly.growBigger(100)
+jesse.growBigger(10)
+
+print(molly.size)
+print(jesse.size)
 
 # We use classes because it allows us to store a variety of related data and 
 # functions under a single variable. This is a pattern of thinking called 

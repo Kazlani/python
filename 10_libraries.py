@@ -10,6 +10,12 @@
 
 import math
 
+# Print coords of unit circle
+#angle = 0
+#while(angle<2*math.pi):
+#    print("X:" + str(math.cos(angle))+", Y:" + str(math.sin(angle)))
+#    angle += .5
+
 print(math.cos(math.pi/2))
 print(math.sin(math.pi/6))
 
@@ -28,4 +34,5 @@ print(math.sin(math.pi/6))
 
 import helper
 
-help_me("now")
+helper.help_me("now")
+print(helper.catCount)
