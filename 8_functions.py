@@ -2,17 +2,17 @@
 # break it into chunks. To do this, you can use functions.
 
 def printNnumbers(n):
-  temp = 0
+  temp = 1
   stringOut=""
-  while (temp<n):
+  while (temp<n+1):
     stringOut = stringOut + str(temp)
     temp=temp+1
   print (stringOut)
 
 print ("Let's make a triangle! Input size:")
 size=int(input())
-temp=0
-while (temp<size):
+temp=1
+while (temp<size+1):
   printNnumbers(temp)
   temp=temp+1
 
